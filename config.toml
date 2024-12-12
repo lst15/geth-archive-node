@@ -6,42 +6,17 @@ SnapDiscoveryURLs = []
 NoPruning = false
 NoPrefetch = false
 TxLookupLimit = 0
-LightPeers = 100
-UltraLightFraction = 75
 DatabaseCache = 512
 DatabaseFreezer = ""
 TrieCleanCache = 154
-TrieCleanCacheJournal = "triecache"
-TrieCleanCacheRejournal = 3600000000000
 TrieDirtyCache = 256
 TrieTimeout = 3600000000000
 SnapshotCache = 102
 Preimages = false
 
 EnablePreimageRecording = false
-EWASMInterpreter = ""
-EVMInterpreter = ""
 RPCGasCap = 25000000
 RPCTxFeeCap = 1e+00
-
-[Eth.Miner]
-GasFloor = 8000000
-GasCeil = 8000000
-GasPrice = 1000000000
-Recommit = 3000000000
-Noverify = false
-
-[Eth.Ethash]
-CacheDir = "ethash"
-CachesInMem = 2
-CachesOnDisk = 3
-CachesLockMmap = false
-DatasetDir = "/root/.ethereum"
-DatasetsInMem = 1
-DatasetsOnDisk = 2
-DatasetsLockMmap = false
-PowMode = 0
-NotifyFull = false
 
 [Eth.TxPool]
 Locals = []
