@@ -23,7 +23,7 @@ services:
       - --config=/config.toml
       - --rpc.allow-unprotected-txs
       - --snapshot=false
-      - --gcmode=archive
+      - --gcmode=full
       - --http
       - --http.api=eth,net,web3,engine,admin
       - --http.addr=0.0.0.0
