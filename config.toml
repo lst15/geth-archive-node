@@ -1,6 +1,6 @@
 [Eth]
 NetworkId = 1
-SyncMode = "full"
+SyncMode = "snap"
 EthDiscoveryURLs = ["enrtree://AKA3AM6LPBYEUDMVNU3BSVQJ5AD45Y7YPOHJLEF6W26QOE4VTUDPE@all.mainnet.ethdisco.net"]
 SnapDiscoveryURLs = []
 NoPruning = false
